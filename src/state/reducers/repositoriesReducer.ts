@@ -7,7 +7,7 @@ interface RepositoriesState {
   data: string[];
 }
 
-const reducer = (
+export const reducer = (
   state: RepositoriesState,
   action: Action
 ): RepositoriesState => {
@@ -22,5 +22,3 @@ const reducer = (
       return state;
   }
 };
-
-export default reducer;
